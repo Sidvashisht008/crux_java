@@ -13,7 +13,7 @@ public class selection_sort {
 	}
 
 	public static void sort(int[] arr) {
-		for (int cnt = 0; cnt < arr.length; cnt++) {
+		for (int cnt = 0; cnt < arr.length-1; cnt++) {
 			int min = cnt;
 			for (int j = cnt + 1; j < arr.length; j++) {
 				if (arr[j] < arr[min]) {
